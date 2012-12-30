@@ -91,28 +91,5 @@ chrome.devtools.panels.elements.createSidebarPane("Brain", function (sidebar) {
 });
 
 chrome.devtools.panels.elements.createSidebarPane("Knoledge", function (sidebar) {
-	//sidebar.setExpression('(' + 'function(){ return window; }' +')()');
 	chrome.devtools.panels.elements.onSelectionChanged.addListener(sidebar.setExpression.bind(sidebar, getdata));
 });
-
-//chrome.devtools.panels.create("Bxtention", "final.png", "Panel.html", function (panel) {
-	//var button = panel.createStatusBarButton("final2.png", "Brain Refresh");
-	//button.onClicked.addListener(function() {...});
-	//button.update(string iconPath, string tooltipText, boolean disabled);
-	//panel.onShown.addListener(function(windows.Window window) {...});
-	//panel.onHidden.addListener(function() {...});
-	//panel.setExpression(getdata2)
-//});
-
-//chrome.devtools.panels.elements.createSidebarPane("Brain", function (sidebar) {
-	//sidebar.setExpression(getAttributeMapper);
-	//chrome.devtools.panels.elements.onSelectionChanged.addListener(sidebar.setExpression.bind(sidebar, getAttributeMapper));
-	// sidebar.setPage("Sidebar.html");
-	// sidebar.setHeight("32ex");
-	//sidebar.createStatusBarButton('final.png', 'Brain Status', false);
-	//.setObject(string jsonObject, string rootTitle)
-	//ExtensionSidebarPane.onShown.addListener(function(windows.Window window) {...});
-	//ExtensionSidebarPane.onShown.addListener(function(windows.Window window) {...});
-//});
-
-
