@@ -25,14 +25,14 @@ var page_getProperties = function () {
 						if (getter.as_abs) {
 							props[getter.as_abs] = val;
 						} else {
-							props[attr + '.' + selector + '.' + getter.as] = val;
+							props[attr + '.' + selector + '.' + (getter.as||prop)] = val;
 						}
 					}
 				} else {
 					if (getter.as_abs) {
 						props[getter.as_abs] = val;
 					} else {
-						props[attr + '.' + selector + '.' + getter.as] = val;
+						props[attr + '.' + selector + '.' + (getter.as||prop)] = val;
 					}
 				}
 				return;
