@@ -32,7 +32,7 @@ __Brain__.Map = {
 ```
 
 
-###How the Map works
+###How the Map works?
 ```javascript
 {
   "An attribute/property of an HtmlElement or code that will be evaluated like this $0.{yourcode}" : {
@@ -53,6 +53,7 @@ __Brain__.Map = {
 }
 ```
 
+####*this is a configuration object
 ```javascript
 * : {
   as: 'the long path display text {attr.regexp.as}',
