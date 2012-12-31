@@ -1,7 +1,7 @@
 {
   "name": "Brain",
   "version": "0.1",
-  "description": "Extends the Developer Tools, adding a sidebar that displays the 'Brain Knoledge' associated with the selected DOM element.",
+  "description": "Extends the Developer Tools, adding a sidebar that displays the 'Brain Knowledge' associated with the selected DOM element.",
   "devtools_page": "devtools.html",
   "background": { "scripts": ["background.js"] },
   "permissions": [

@@ -90,6 +90,6 @@ chrome.devtools.panels.elements.createSidebarPane("Brain", function (sidebar) {
 	chrome.devtools.panels.elements.onSelectionChanged.addListener(sidebar.setExpression.bind(sidebar, getAttributeMapper));
 });
 
-chrome.devtools.panels.elements.createSidebarPane("Knoledge", function (sidebar) {
+chrome.devtools.panels.elements.createSidebarPane("Knowledge", function (sidebar) {
 	chrome.devtools.panels.elements.onSelectionChanged.addListener(sidebar.setExpression.bind(sidebar, getdata));
 });
