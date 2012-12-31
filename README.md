@@ -53,7 +53,7 @@ __Brain__.Map = {
 }
 ```
 
-####*this is a configuration object
+###*this is the configuration object.
 ```javascript
 * : {
   as: 'the long path display text {attr.regexp.as}',
