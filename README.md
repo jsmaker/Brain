@@ -5,8 +5,8 @@ little devtools helper
 
 
 
-you can set the Brain Map with this code and open the devtools elements panel
-you will see a Knowledge pane in the sidebar with the information. 
+you can set the Brain Map with this code and open the devtools elements panel you will see a Knowledge pane in the sidebar with the information.
+you can update this object any time you want...and see the results.
 
 ```javascript
 __Brain__.Map = {
@@ -31,9 +31,8 @@ __Brain__.Map = {
 }
 ```
 
-you can update this object any time you want...and see the results.
 
-how the Map works
+###How the Map works
 ```javascript
 {
   "An attribute/property of an HtmlElement or code that will be evaluated like this $0.{yourcode}" : {
