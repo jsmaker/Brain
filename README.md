@@ -8,6 +8,7 @@ little devtools helper
 you can set the Brain Map with this code and open the devtools elements panel you will see a Knowledge pane in the sidebar with the information.
 you can update this object any time you want...and see the results.
 
+###Example Map:
 ```javascript
 __Brain__.Map = {
   "tagName":{
